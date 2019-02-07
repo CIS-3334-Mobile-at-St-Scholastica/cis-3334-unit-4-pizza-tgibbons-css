@@ -16,6 +16,7 @@ public class PizzaOrder implements PizzaOrderInterface {
     private List<Pizza> pizzasInOrder;          // list of pizzas ordered so far
     private boolean delivery;                   // true if customer wants order delivered
 
+
     public PizzaOrder (updateViewInterface view) {
         this.view = view;
         pizzasInOrder = new ArrayList<Pizza>();
